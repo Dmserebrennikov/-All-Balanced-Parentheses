@@ -1,3 +1,5 @@
+'use strict';
+
 function balancedParens(n) {
   let array = [];
   for (let i = 0; i < n * 2; i++) i < n ? array.push('(') : array.push(')');
